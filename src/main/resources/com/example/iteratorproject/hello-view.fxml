@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="695.0" prefWidth="802.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.iteratorproject.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <BorderPane fx:id="pane" prefHeight="692.0" prefWidth="758.0">
+         <bottom>
+            <Button fx:id="button1" mnemonicParsing="false" onAction="#drowImage1" text="Button" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <ImageView fx:id="ImageView1" fitHeight="353.0" fitWidth="420.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</VBox>
